@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained XGBoost model
-with open('xgboost_model_frailty.pkl', 'rb') as model_file:
+with open('XGBoost.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Set the title of the web app
